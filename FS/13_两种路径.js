@@ -1,0 +1,8 @@
+// 1.导入 fs模块
+const fs = require("fs");
+
+// 相对路径
+fs.writeFileSync('./index.html', 'love')
+
+// 绝对路径
+fs.writeFileSync('D:/桌面/NodeJS/资料/index.html', 'love')

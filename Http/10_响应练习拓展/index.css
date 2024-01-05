@@ -1,0 +1,16 @@
+td {
+  padding: 20px 40px;
+}
+
+table tr:nth-child(odd) {
+  background-color: aquamarine;
+}
+
+table tr:nth-child(even) {
+  background-color: blueviolet;
+}
+
+table,
+td {
+  border-collapse: collapse;
+}
